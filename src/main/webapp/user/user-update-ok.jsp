@@ -24,7 +24,7 @@ if(result==1){
 %>
 <script>
 	alert('정상적으로 업데이트 되었습니다.');
-	location.href = '/user/user-views.jsp?uiNum=<%=uiNum%>';
+	location.href = '/user/user-view.jsp?uiNum=<%=uiNum%>';
 </script>
 <%
 }else{
@@ -32,7 +32,7 @@ if(result==1){
 
 <script>
 	alert('오류가 발생하였습니다.');
-	location.href = '/user/user-views.jsp?uiNum=<%=uiNum%>';
+	location.href = '/user/user-view.jsp?uiNum=<%=uiNum%>';
 </script>
 <%
 }
